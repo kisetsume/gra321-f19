@@ -1,9 +1,43 @@
-/* Styles for Charlies's Website, version 2 */
+body {
+  padding: 3rem;
+}
+.list li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
 
-*, *:before, *:after {
-  box-sizing: border-box;
+}
+.product {
+  flex: 1;
+  position: relative;
+}
+.product::after {
+  content: '';
+  position: absolute;
+  top: .7rem;
+  width: 100%;
+  z-index: 0;
+}
+.product h4 {
+  display: inline-block;
+  padding-right: .5rem;
+  position: relative;
+  z-index: 1;
+}
+.prices {
+  display: flex;
+}
+.price {
+  padding: 0 .5rem;
 }
 
-img{
-    max-width: 100%;
+.menu-section {
+    margin: 0 auto;
+    max-width: 800px;
 }
+
+.page-wrapper {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
