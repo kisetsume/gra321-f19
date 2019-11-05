@@ -46,7 +46,7 @@ html, body {
 }
 
 .main-header {
-    background-image: url("/project6-2/img/coffee-header.jpg");
+    background-image: url("project6-2/img/coffee-header.jpg");
     background-size: cover;
     background-position: center center;
     
