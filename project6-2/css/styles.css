@@ -46,7 +46,7 @@ html, body {
 }
 
 .main-header {
-    background-image: url('https://picsum.photos/1200/800');
+    background-image: url("coffee-beans-header.png");
     background-size: cover;
     background-position: center center;
     
