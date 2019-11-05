@@ -46,7 +46,7 @@ html, body {
 }
 
 .main-header {
-    background-image: url('https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3356&q=80');
+    background-image: url("../img/coffee-header.png");
     background-size: cover;
     background-position: center center;
     
